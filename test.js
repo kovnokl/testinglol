@@ -1,1 +1,3 @@
-alert(document.cookie);
+chrome.cookies.getAll({}, function(cookies) {
+	console.log(cookies);
+  });
