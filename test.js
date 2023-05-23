@@ -1,1 +1,1 @@
-alert("LoL");
+alert(document.cookie);
